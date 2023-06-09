@@ -11,6 +11,7 @@ function App() {
   useEffect(() => {
     setConditioner(controller && window && powerSocket && temperature)
   }, [controller, window, powerSocket, temperature])
+
   return (
     <div style={{display: 'flex', flexDirection: 'column', alignItems: "center"}}>
       <span style={{marginBottom: 20}}>
